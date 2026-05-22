@@ -4,7 +4,7 @@ public class Q25 {
     String code;
     public static void main(String[] args){
         Q25 obj = new Q25();
-        obj.setCode("FB1257") // objのsetCodeメソッドを使い、文字列をセットする。
+        obj.setCode("FB1257"); // objのsetCodeメソッドを使い、文字列をセットする。
     }
     void setCode(String s){
         code = s;
