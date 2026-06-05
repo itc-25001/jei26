@@ -5,9 +5,12 @@ public class Q23 {
     public static void main(String[] args){
         Q23 obj = new Q23();
         obj.setCode("Code");
-        System.out.println(obj.code);
+        System.out.println(obj.getCode());
     }
     void setCode(String c){
         code = c;
+    }
+    String getCode(){
+        return code;
     }
 }
