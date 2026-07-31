@@ -2,6 +2,7 @@ package d53;
 
 public class RiceBall {
     private String ingredients;
+    private int n;
     RiceBall(String ingredients){
         this.ingredients = ingredients;
         System.out.println(ingredients); // 出力確認用
@@ -13,6 +14,7 @@ public class RiceBall {
     public static void main(String[] args){
         RiceBall ume = new RiceBall("梅干し"); //
         RiceBall sake = new RiceBall("鮭");
+        RiceBall count = new RiceBall(2);
     }
 }
 /*
